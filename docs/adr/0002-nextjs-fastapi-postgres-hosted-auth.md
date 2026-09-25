@@ -1,0 +1,3 @@
+# Next.js front end, FastAPI backend, Postgres, hosted login provider
+
+We use Next.js (TypeScript) for the front end, a FastAPI (Python) backend, Postgres for storage, and a hosted login provider (Clerk) instead of building our own login. A single-language setup (Next.js with Supabase) would ship faster. We chose the two-part stack on purpose because the Admin is also a Learner on the Agentic AI Engineer Stack, and this stack puts that Syllabus's backend, database, TypeScript and deployment Lessons into practice. The login provider is the choice that is hardest to undo, since Learner identities live there.
