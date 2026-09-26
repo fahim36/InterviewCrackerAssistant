@@ -91,7 +91,7 @@ A calendar day in UTC. Every day boundary in the app, for Daily Challenges and S
 _Avoid_: Local day, calendar day
 
 **Daily Challenge**:
-A Stack's set of three Questions (two multiple choice, one written) for one Day, numbered from the Stack's launch: "Agentic AI Engineer #40". Every Learner gets the same one, released at 00:00 UTC. A Learner gets one try; the Explanation and Sources show after each answer.
+A Stack's set of three Questions (two multiple choice, one written) for one Day, numbered from the Stack's launch: "Agentic AI Engineer #40". Every Learner gets the same one, released at 00:00 UTC. Only a Learner's first try is scored; the Explanation and Sources show after each answer. Replaying it afterwards is for learning only and changes nothing: not the score, the Streak or Missed Questions.
 _Avoid_: Drop, daily quiz, puzzle
 
 **Upcoming Challenge**:
@@ -99,7 +99,7 @@ A Daily Challenge the Admin has written and committed but that hasn't been relea
 _Avoid_: Challenge schedule, draft, queued challenge
 
 **Archive**:
-Every released Daily Challenge of a Stack, back to #1. Any Learner with that Active Stack can play one they haven't played, graded as usual, but it never counts toward a Streak. Retired Questions appear in it but can't be answered.
+Every released Daily Challenge of a Stack, back to #1. Any Learner with that Active Stack can play any of them. A first play is scored as usual but never counts toward a Streak; a replay is for learning only. Retired Questions appear in it but can't be answered.
 _Avoid_: History, backlog, past games
 
 **Catch-up**:
@@ -133,7 +133,7 @@ A Learner's challenge to how a written answer was graded. It waits for the Admin
 _Avoid_: Appeal, report, complaint
 
 **Missed Question**:
-A Question the Learner answered wrongly, or left unanswered in a quiz they submitted. A Daily Challenge the Learner never played creates no Missed Questions.
+A Question the Learner answered wrongly, or left unanswered in a quiz they submitted. A Daily Challenge the Learner never played, or replayed, creates no Missed Questions.
 _Avoid_: Mistake, error, wrong answer
 
 **Retake**:
