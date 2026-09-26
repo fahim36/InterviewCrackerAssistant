@@ -11,6 +11,7 @@ Existing tickets are GitHub issues #1–#13 on [fahim36/InterviewCrackerAssistan
 | [#2](https://github.com/fahim36/InterviewCrackerAssistant/issues/2) Content check | Stays as the base check. C1 adds the Source, retirement and Concept-repeat rules. |
 | [#4](https://github.com/fahim36/InterviewCrackerAssistant/issues/4) Onboarding | Activate **one or more** Stacks. No time zone step (all Days are UTC). |
 | [#5](https://github.com/fahim36/InterviewCrackerAssistant/issues/5) Week map | Lock states come from completion only; no Pending Review Round. |
+| [#6](https://github.com/fahim36/InterviewCrackerAssistant/issues/6) Lesson Quiz | Includes written Questions from the start (grader from #7), and skips Questions the Learner has already seen. |
 | [#7](https://github.com/fahim36/InterviewCrackerAssistant/issues/7) Written answer grading | Now blocked by C3 instead of #6, since each Daily Challenge has one written Question. |
 | [#9](https://github.com/fahim36/InterviewCrackerAssistant/issues/9) Daily Review: Round 1 | Becomes **Review**: an optional queue in sets of up to 10, with no rounds, timers or blocking. |
 | [#10](https://github.com/fahim36/InterviewCrackerAssistant/issues/10) Rounds 2 and 3 | No longer needed. Close. |
@@ -41,7 +42,8 @@ graph TD
   C3 --> C4[C4 Streaks and Result Card]
   C3 --> C5[C5 Archive and Catch-up]
   T4 --> T5[5 Week map]
-  T5 --> T6[6 Lesson Quiz, multiple choice]
+  T5 --> T6[6 Lesson Quiz]
+  T7 --> T6
   T6 --> T8[8 Explanations and Retakes]
   T8 --> T9[9 Review]
   C1 --> T12[12 /update-syllabus and first Stack]
@@ -65,7 +67,7 @@ graph TD
 | 6 | **C5 · Archive and Catch-up** | C3 | 7, C4, 5 |
 | any time after C1 | **#12 · `/update-syllabus`** and the first Stack | C1 | C2 onwards |
 | 7 | **#5 · Week map** with lock states and Milestones | 4 | C3 onwards |
-| 8 | **#6 · Lesson Quiz** (multiple choice) and unlocking | 5 | 12 |
+| 8 | **#6 · Lesson Quiz** and unlocking | 5, 7 | 12 |
 | 9 | **#8 · Explanations and Retakes** | 6 | 12 |
 | 10 | **#9 · Review** | 8 | 12 |
 | last | **#13 · Importing a new Syllabus version** without losing progress | 9, 12 | none |
